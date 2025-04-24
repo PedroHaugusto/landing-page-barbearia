@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento - Barbearia</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/agendamento.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="../assets/imagens/logo.png" alt="logo" class="logo" />
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="agendamento.html">AGENDAMENTO</a></li>
+                <li><a href="">CONTATO</a></li>
+                <li><a href="">LOCALIZAÇÃO</a></li>
+                <li><a href="">FEEDBACK</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container-body">
+        <div class="text-body">
+            <h1>Agende seu horário</h1>
+            <form id="form-agendamento">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="servico">Serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="Corte">Corte</option>
+                    <option value="Barba">Barba</option>
+                    <option value="Corte + Barba">Corte + Barba</option>
+                </select>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <button type="submit" class="b-whats" style="width: 100%;">Agendar</button>
+            </form>
+        </div>
+        <div class="img-body">
+            <img src="../assets/imagens/image.png" alt="img-ilustrativa" class="img-1">
+        </div>
+    </div>
+
+    <script src="../assets/js/agendamento.js"></script>
+</body>
+
+</html>
