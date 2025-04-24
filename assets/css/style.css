@@ -7,24 +7,27 @@ body {
   height: 100%;
   background-color: #404143;
   background-image: url(assets/imagens/vector.png);
-background-size: contain;
-background-repeat: no-repeat;
-background-position:right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
+
 header {
   max-width: 1280px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
 }
+
 .container {
   margin-top: 30px;
   align-items: center;
   justify-content: space-between;
   display: flex;
   margin: 0;
-  
+
 }
+
 .logo {
   width: 10%;
   filter: drop-shadow(2px 2px 5px rgb(184, 184, 188));
@@ -46,6 +49,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 .b-whats {
   width: 120px;
   height: 45px;
@@ -54,7 +58,7 @@ a {
   border-radius: 25px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  display: block; 
+  display: block;
   margin-top: 3%;
 }
 
@@ -78,7 +82,7 @@ a {
   margin: 0 auto;
   margin-top: 3%;
   display: flex;
-  height: calc(100vh - 250px); 
+  height: calc(100vh - 250px);
 }
 
 .text-body {
@@ -89,17 +93,18 @@ a {
   justify-content: center;
   padding: 20px;
 }
-.text-body h1{
-  font-size: 90px;
-    font-family: "Just Another Hand", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-  .text-body p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-  }
+.text-body h1 {
+  font-size: 90px;
+  font-family: "Just Another Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-body p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
 
 .img-body {
   width: 50%;
@@ -118,7 +123,7 @@ a {
 /* RESPONSIVIDADE*/
 
 
-@media( max-width: 1800px) {
+@media(max-width: 1800px) {
   .img-1 {
     width: 70%;
   }
