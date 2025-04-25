@@ -39,6 +39,8 @@ pages/
   localizacao.html
 index.html
 ```
+## Deploy
+Link de deploy: https://landing-page-barbearia-green.vercel.app/
 
 ## Como Executar
 
