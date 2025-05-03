@@ -24,8 +24,6 @@ Landing page desenvolvida para facilitar o agendamento de serviços e aumentar a
 assets/
   css/
     style.css
-    agendamento.css
-    contato.css
   imagens/
     logo.png
     image.png
