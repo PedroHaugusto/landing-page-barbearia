@@ -5,6 +5,7 @@ Landing page desenvolvida para facilitar o agendamento de serviços e aumentar a
 
 ## Funcionalidades
 
+- **Roadmap do Projeto:** https://mm.tt/map/3682693047?t=ssvUxLjKkI
 - **Página Inicial:** Apresentação da barbearia, com informações institucionais e botão para contato via WhatsApp.
 - **Agendamento Online:** Formulário para agendar serviços, com integração ao Google Calendar e envio automático de mensagem para o WhatsApp da barbearia.
 - **Contato:** Seção com informações e redes sociais dos desenvolvedores.
