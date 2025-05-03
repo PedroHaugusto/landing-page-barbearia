@@ -11,15 +11,6 @@ Landing page desenvolvida para facilitar o agendamento de serviços e aumentar a
 - **Localização:** Página com mapa interativo do Google Maps mostrando o endereço da barbearia.
 - **Responsividade:** Layout adaptado para diferentes tamanhos de tela.
 
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3 (com organização modular por página)
-- JavaScript (para integração com Google Calendar e WhatsApp)
-- Google Fonts (Just Another Hand, Roboto)
-- Font Awesome (ícones sociais)
-- Google Maps Embed
-
 ## Estrutura de Pastas
 
 ```
@@ -41,20 +32,3 @@ pages/
   localizacao.html
 index.html
 ```
-
-## Como Executar
-
-1. Clone este repositório.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Navegue pelas páginas utilizando o menu superior.
-
-## Integrantes
-
-- **Pedro Henrique Augusto**  
-  [LinkedIn](https://www.linkedin.com/in/pedrohaugusto/) | [GitHub](https://github.com/PedroHaugusto)
-
-- **Rhuann Henrique**  
-  [LinkedIn](https://www.linkedin.com/in/rhuann-lima-7173b2285/) | [GitHub](https://github.com/23Rh)
-
-- **Paulo Antonio**  
-  [LinkedIn](https://www.linkedin.com/in/neto30/) | [GitHub](https://github.com/netodedanda)
